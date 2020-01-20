@@ -1,0 +1,223 @@
+body{
+  background:#FF6600;
+  margin: 0;
+  color: gray;
+  font-family: calibri;
+}
+input:invalid{
+  background: white;
+}
+.container{
+  background: #ff6633;
+  width:40%;
+  height:auto;
+  padding:15px;
+  position: absolute;
+  left:30%;
+  top:1%;
+  border-radius: 5px;
+}
+.input-form{
+  width:95%;
+  background:#F9F9F9;
+  margin:0.9%;
+  padding:10px;
+  border: none;
+  border-radius: 5px;
+}
+.input-form-number{
+  width:12%;
+  background:#F9F9F9;
+  margin:1%;
+  padding:10px;
+  border: none;
+  border-radius: 5px;
+}
+.input-form-value{
+  width:57.5%;
+  background:#F9F9F9;
+  margin:1%;
+  padding:10px;
+  border: none;
+  border-radius: 5px;
+}
+.btn-form-change{
+  color:white;
+  background: #ff6868;
+  font-weight: bold;
+  border:none;
+  border-radius:50px;
+  padding:15px;
+  margin:10px;
+  width: 35%;
+  float:left;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.btn-form-pay{
+  color:white;
+  background: #68a2ff;
+  font-weight: bold;
+  border:none;
+  border-radius:50px;
+  padding:15px;
+  margin:10px;
+  width: 35%;
+  float:right;
+  cursor: pointer;
+}
+.btn-form-pay:hover{
+  background:#66bef9;
+}
+.btn-form-change:hover{
+  background: #fc7979;
+}
+table {
+    margin-top: 5px;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+th, td {
+    background: white;
+}
+
+th:hover {
+  box-shadow:2px 0px 10px 0px #F4F4F4;
+  border: 1px solid #68a2ff;
+}
+th{
+  border: 1px solid #F4F4F4;
+}
+@media only screen and (max-width: 700px) {
+    .container{
+      width:80%;
+      left:6%;
+    }
+    .input-form-value{
+      width:49%;
+    }
+}
+
+header {
+  background-color: orange;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+h4{
+  color: #fff;
+}
+
+.menu{
+  font-style: white;
+}
+
+.container{
+  padding-top: 30px;
+
+}
+.navbarutama{
+
+  background-color: #FF5500;
+  padding-bottom: 20px;
+}
+.menunav{
+
+  text-decoration-color: #fff;
+}
+.image{
+
+  height: auto;
+  width: 650%;
+}
+.img{
+
+margin-left: -45px;
+width: 100%;
+height: -50%;
+
+}
+
+  body {
+    font-family: Arial;
+}
+
+
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid white;
+  float: left;
+  width: 80%;
+  background: white;
+}
+
+form.example button {
+  float: left;
+  width: 10%;
+  padding: 6px;
+  background: #FF5500;
+  color: white;
+  font-size: 17px;
+  border: 5px solid white;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #fb6445;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#logo {
+  padding-top: 20px;
+  font-family: Comic Sans MS    ;
+
+}
+#logo h4{
+  font-size: 32px;
+}
+#logo span{
+  background-color: #fff;
+  color: #FF5500;
+  border-radius: 5px;
+  padding: 5px 15px;
+  display: inline-block;
+}
+
+#logo span h5{
+  font-weight: bold;
+  font-size: 12px;
+  float: right;
+  margin-top: 19px;
+  margin-bottom: -12px;
+}
+
+footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+.w3-container:after,.w3-container:before,.w3-panel:after,.w3-panel:before,.w3-row:after,.w3-row:before,.w3-row-padding:after,.w3-row-padding:before,
+.w3-padding-small{padding:4px 8px!important}.w3-padding{padding:8px 16px!important}.w3-padding-large{padding:12px 24px!important}
+.w3-padding-16{padding-top:16px!important;padding-bottom:16px!important}.w3-padding-24{padding-top:24px!important;padding-bottom:24px!important}
+.w3-padding-32{padding-top:32px!important;padding-bottom:32px!important}.w3-padding-48{padding-top:48px!important;padding-bottom:48px!important}
+.w3-padding-64{padding-top:64px!important;padding-bottom:64px!important}
+.w3-hoverable tbody tr:hover,.w3-ul.w3-hoverable li:hover{background-color:#ccc}.w3-centered tr th,.w3-centered tr td{text-align:center}
+.w3-opacity,.w3-hover-opacity:hover{opacity:0.60}.w3-opacity-off,.w3-hover-opacity-off:hover{opacity:1}
+.w3-opacity-max{opacity:0.25}.w3-opacity-min{opacity:0.75}
+.w3-light-grey,.w3-hover-light-grey:hover,.w3-light-gray,.w3-hover-light-gray:hover{color:#000000!important;background-color:#f1f1f1!important}
+.w3-xlarge{font-size:24px!important}.w3-xxlarge{font-size:36px!important}.w3-xxxlarge{font-size:48px!important}.w3-jumbo{font-size:64px!important}
+.w3-tiny{font-size:10px!important}.w3-small{font-size:12px!important}.w3-medium{font-size:15px!important}.w3-large{font-size:18px!important}
